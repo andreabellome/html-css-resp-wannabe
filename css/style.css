@@ -127,6 +127,8 @@ img {
 /************************************************
     SOLUZIONE RESPONSIVE
 ************************************************/
+
+/* tablet */
 @media only screen and (max-width: 768px) {
 
     .container{
@@ -135,6 +137,7 @@ img {
 
 }
 
+/* smartphone */
 @media only screen and (max-width: 480px) {
 
     .row{
@@ -152,6 +155,15 @@ img {
 
     .why-us .col{
         width: 100%;
+    }
+
+    .steps{
+        margin-bottom: 0;
+    }
+
+    .why-us{
+        background-color: #222;
+        margin-bottom: 0;
     }
 
 }
